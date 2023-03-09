@@ -13,7 +13,7 @@ export const AddTask = ({ tasks, setTasks }) => {
 	const handleReset = () => {
 		setTaskValue("");
 	};
-
+	//
 	const handleSubmit = (event) => {
 		event.preventDefault();
 
@@ -53,4 +53,5 @@ export const AddTask = ({ tasks, setTasks }) => {
 		</section>
 	);
 };
-// REACT APP
+// Todo REACT APP
+// helps us for better understanding
